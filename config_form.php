@@ -137,6 +137,9 @@
 		<div class="input-block">
 			<?php
 			$currentExludedCollections = unserialize(get_option('defaultsort_excluded_collections'));
+			if (!$currentExludedCollections) {
+			   $currentExludedCollections = array();
+			}
 			if(empty($collections)) :?>
 			<?php echo __('There are no public Collections at the moment.'); ?>
 
