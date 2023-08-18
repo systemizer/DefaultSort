@@ -32,7 +32,7 @@ class DefaultSortPlugin extends Omeka_Plugin_AbstractPlugin
 		'defaultsort_collections_option' => 'added',
 		'defaultsort_collections_direction' => 'd',
 
-		'defaultsort_excluded_collections' =>'',
+		'defaultsort_excluded_collections' => array(),
 		'defaultsort_excluded_collections_option'=> 'added',
 		'defaultsort_exluded_collections_direction' => 'a'
 
